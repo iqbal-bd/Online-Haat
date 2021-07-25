@@ -1,0 +1,8 @@
+.carousel-bg{
+    background: rgb(118,133,212);
+background: linear-gradient(180deg, rgba(118,133,212,1) 0%, rgba(137,196,183,1) 35%, rgba(83,195,102,1) 100%);
+}
+
+.carousel-img{
+    height: 500px;
+}
