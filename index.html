@@ -27,7 +27,7 @@
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">
                     <img src="images/cow_favicon.png" alt="" width="30" height="24">
-                </a>
+                  </a>
                   <a class="navbar-brand " href="#">Online Haat</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -38,16 +38,16 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#about-us">About Us</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Cows</a>
+                        <a class="nav-link" href="index.html">Cows</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Goats</a>
+                        <a class="nav-link" href="goat.html">Goats</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Camels</a>
+                        <a class="nav-link" href="camel.html">Camels</a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -62,7 +62,7 @@
                       </li>
                     </ul>
                     <form class="d-flex">
-                      <button class="btn btn-outline-success" type="submit"><i class="fas fa-shopping-cart"></i> Cart</button>
+                      <button class="btn btn-outline-success add-cart" type="submit"><i class="fas fa-shopping-cart"></i> Cart</button>
                     </form>
                   </div>
                 </div>
@@ -118,7 +118,7 @@
 
         <!-- About Us part -->
 
-        <article class="container my-5">
+        <article class="container my-5" id="about-us">
           <h1 class="text-center mb-3"><a class="text-decoration-none text-dark" href="">About Us</a></h1>
           <p class="px-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eaque debitis, esse iure laboriosam animi corrupti quibusdam praesentium provident fugit quaerat sint quas veniam obcaecati sapiente ducimus modi iusto aut minus molestias accusantium quia nihil! Quae fugit praesentium, corrupti nihil pariatur libero minima rerum maxime iusto eos unde excepturi distinctio eum, quam quos earum! Itaque saepe provident labore dolores? Sed?</p>
         </article>
@@ -213,18 +213,20 @@
         <section class="container my-5">
           <nav aria-label="Page navigation example">
             <ul class="pagination justify-content-center">
-              <li class="page-item disabled">
-                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
               <li class="page-item">
-                <a class="page-link" href="#">Next</a>
+                <a class="page-link" href="#">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+              <li class="page-item"><a class="page-link" href="goat.html">2</a></li>
+              <li class="page-item"><a class="page-link" href="camel.html">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="goat.html">Next</a>
               </li>
             </ul>
           </nav>
         </section>
+
+        <!-- payment part -->
         <section class="my-5">
           <div class="container">
 
@@ -243,15 +245,17 @@
           </div>
         </section>
     </main>
+
+    <!-- footer part -->
     <footer class="footer-bg my-5">
         <div class="container">
           <h1 class="text-center">CONTACT</h1>
-      <address class="text-center">
-        <b>ONLINE HAAT</b><br>
-        Netrokona, Bangladesh<br>
-        Email:online.haat@gmail.com<br>
-        Phone-Number:098########
-      </address>
+          <address class="text-center">
+            <b>ONLINE HAAT</b><br>
+            Netrokona, Bangladesh<br>
+            Email:online.haat@gmail.com<br>
+            Phone-Number:098########
+          </address>
         </div>
     </footer>
 
