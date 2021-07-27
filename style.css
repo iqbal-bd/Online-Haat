@@ -36,17 +36,15 @@ background: linear-gradient(180deg, rgba(118,133,212,1) 0%, rgba(137,196,183,1) 
     text-align: center;
     cursor: default;
     background: rgb(250,250,251);
-background: linear-gradient(180deg, rgba(250,250,251,1) 0%, rgba(156,207,195,1) 65%, rgba(203,203,203,1) 100%);
+    background: linear-gradient(180deg, rgba(250,250,251,1) 0%, rgba(156,207,195,1) 65%, rgba(203,203,203,1) 100%);
 }
 
 .hovereffect-logo {
-    /* width: 95%;
-    height: 100%; */
     overflow: hidden;
     position: relative;
     cursor: default;
     background: rgb(250,250,251);
-background: linear-gradient(180deg, rgba(250,250,251,1) 0%, rgba(156,207,195,1) 65%, rgba(203,203,203,1) 100%);
+    background: linear-gradient(180deg, rgba(250,250,251,1) 0%, rgba(156,207,195,1) 65%, rgba(203,203,203,1) 100%);
 }
 
 .hovereffect img {
@@ -63,7 +61,7 @@ background: linear-gradient(180deg, rgba(250,250,251,1) 0%, rgba(156,207,195,1) 
     transition: all 0.4s ease-in;
 }
 
-.hovereffect:hover img, .hovereffect-logo:hover img {
+.hovereffect:hover img, .hovereffect-logo:hover>a> img {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
